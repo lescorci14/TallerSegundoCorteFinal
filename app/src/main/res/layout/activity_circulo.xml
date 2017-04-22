@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.tallerfinal.Circulo">
+    tools:context="com.example.android.tallerfinal.Circulo"
+    android:onClick="borrar">
 
     <LinearLayout
         android:orientation="vertical"
@@ -20,7 +21,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="New Text"
+            android:text="@string/tcirculo"
             android:id="@+id/textView8"
             android:textAlignment="center"
             android:textSize="30sp"
@@ -34,15 +35,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="@string/radio"
                 android:id="@+id/textView9"
                 android:layout_weight="1" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText"
-                android:layout_weight="1" />
+                android:id="@+id/txtRadio"
+                android:layout_weight="1"
+                android:hint="@string/radioh"
+                android:inputType="numberSigned" />
         </LinearLayout>
 
         <LinearLayout
@@ -53,16 +56,18 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/button"
-                android:layout_weight="1" />
+                android:text="@string/calcular"
+                android:id="@+id/btnCalcularCir"
+                android:layout_weight="1"
+                android:onClick="circulo" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/button2"
-                android:layout_weight="1" />
+                android:text="@string/borrar"
+                android:id="@+id/btnBorrarCir"
+                android:layout_weight="1"
+                android:onClick="borrar2" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

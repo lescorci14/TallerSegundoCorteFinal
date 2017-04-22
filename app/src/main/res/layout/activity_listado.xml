@@ -9,14 +9,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.tallerfinal.Listado">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tlistado"
+        android:id="@+id/textView13"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/tblOperaciones"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:stretchColumns="*">
+        android:stretchColumns="*"
+        android:layout_below="@+id/textView13">
 
         <TableRow
             android:layout_width="match_parent"
@@ -48,4 +57,5 @@
                 android:id="@+id/textView7" />
         </TableRow>
     </TableLayout>
+
 </RelativeLayout>

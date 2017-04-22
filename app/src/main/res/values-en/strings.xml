@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalWork</string>
+    <string name="area">Area:</string>
+    <string name="areacir">Circle Area</string>
+    <string name="areacua">Square Area</string>
+    <string name="areas">Areas</string>
+    <string name="borrar">Delete</string>
+    <string name="calcular">Calculate</string>
+    <string name="circulo">Circle</string>
+    <string name="cuadrado">Square</string>
+    <string name="datos">Values</string>
+    <string name="errorlado">Type the Ride</string>
+    <string name="errorradio">Type the Radio</string>
+    <string name="lado">Value of Side:</string>
+    <string name="lado2">Side:</string>
+    <string name="ladoh">Side</string>
+    <string name="numero">N°</string>
+    <string name="opciones">OPTIONS</string>
+    <string name="operacion">Operation</string>
+    <string name="operaciones">Finished Operations</string>
+    <string name="radio">Value of Radio:</string>
+    <string name="radio2">Radio:</string>
+    <string name="radioh">Radio</string>
+    <string name="result">Result</string>
+    <string name="tcirculo">CIRCLE</string>
+    <string name="tcuadrado">SQUARE</string>
+    <string name="tareas">AREAS</string>
+    <string name="tlistado">LIST</string>
+</resources>

@@ -32,11 +32,11 @@ public class Cuadrado extends AppCompatActivity {
             lad = cajaLado.getText().toString();
             lad2 = Integer.parseInt(lad);
 
-            operacion = "Area del Cuadrado";
-            dato = "Lado: "+lad2;
+            operacion = res.getString(R.string.areacua);
+            dato = res.getString(R.string.lado2)+" "+lad2;
 
             lad2 = lad2*lad2;
-            aux = aux+lad2;
+            aux = aux+lad2+" mts^2";
 
             b.putString("ResultadoCuadrado", aux);
             i.putExtras(b);
@@ -48,9 +48,17 @@ public class Cuadrado extends AppCompatActivity {
 
     public boolean validar(){
         if(cajaLado.getText().toString().isEmpty()){
-            cajaLado.setError("Digite el Lado");
+            cajaLado.setError(res.getString(R.string.errorlado));
             return false;
         }
         return true;
     }
+
+    public void borrar1(View v){ limpiar(); }
+
+    public void limpiar(){
+        cajaLado.setText("");
+        cajaLado.requestFocus();
+    }
+
 }

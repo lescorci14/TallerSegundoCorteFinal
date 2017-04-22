@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class Resultado1 extends AppCompatActivity {
+public class Resultado2 extends AppCompatActivity {
     private TextView enviado;
     private Bundle b;
     private String resultado, aux;
@@ -17,17 +17,16 @@ public class Resultado1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resultado1);
+        setContentView(R.layout.activity_resultado2);
 
-        enviado = (TextView)findViewById(R.id.txtResultadoCua);
+        enviado = (TextView)findViewById(R.id.txtResultadoCir);
         b = getIntent().getExtras();
-        resultado = b.getString("ResultadoCuadrado");
+        resultado = b.getString("ResultadoCirculo");
         res = this.getResources();
 
         aux = res.getString(R.string.area)+" "+resultado;
 
         enviado.setText(aux);
-
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(res.getString(R.string.result));
@@ -35,7 +34,7 @@ public class Resultado1 extends AppCompatActivity {
                 .setCancelable(false)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        i = new Intent(Resultado1.this, Cuadrado.class);
+                        i = new Intent(Resultado2.this, Circulo.class);
                         startActivity(i);
                     }
                 });

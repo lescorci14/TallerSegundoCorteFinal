@@ -1,30 +1,37 @@
 <resources>
     <string name="app_name">TallerFinal</string>
-    <string name="areas">Areas</string>
-    <string name="volumenes">Volumenes</string>
+    <string name="areas">Áreas</string>
     <string name="operaciones">Operaciones Realizadas</string>
     <string-array name="opciones">
         <item>@string/areas</item>
-        <item>@string/volumenes</item>
         <item>@string/operaciones</item>
     </string-array>
     <string name="cuadrado">Cuadrado</string>
-    <string name="rectangulo">Rectangulo</string>
-    <string name="triangulo">Triangulo</string>
-    <string name="circulo">Circulo</string>
+    <string name="circulo">Círculo</string>
     <string name="tcuadrado">CUADRADO</string>
     <string name="lado">Valor del Lado:</string>
     <string name="ladoh">Lado</string>
     <string name="calcular">Calcular</string>
     <string name="borrar">Borrar</string>
     <string name="numero">N°</string>
-    <string name="operacion">Operacion</string>
+    <string name="operacion">Operación</string>
     <string name="datos">Datos</string>
     <string name="result">Resultado</string>
+    <string name="radio">Valor del Radio:</string>
+    <string name="radioh">Radio</string>
+    <string name="tcirculo">CÍRCULO</string>
+    <string name="opciones">OPCIONES</string>
+    <string name="areacua">Área del Cuadrado</string>
+    <string name="areacir">Área del Círculo</string>
+    <string name="lado2">Lado:</string>
+    <string name="radio2">Radio:</string>
+    <string name="errorlado">Digite el Lado</string>
+    <string name="errorradio">Digite el Radio</string>
+    <string name="area">Área:</string>
+    <string name="tareas">ÁREAS</string>
+    <string name="tlistado">Lista</string>
     <string-array name="areas">
         <item>@string/cuadrado</item>
-        <item>@string/rectangulo</item>
-        <item>@string/triangulo</item>
         <item>@string/circulo</item>
     </string-array>
 </resources>

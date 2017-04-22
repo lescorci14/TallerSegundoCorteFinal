@@ -31,6 +31,10 @@ public class Areas extends AppCompatActivity {
                         i = new Intent(Areas.this, Cuadrado.class);
                         startActivity(i);
                         break;
+                    case 1:
+                        i = new Intent(Areas.this, Circulo.class);
+                        startActivity(i);
+                        break;
                 }
             }
         });

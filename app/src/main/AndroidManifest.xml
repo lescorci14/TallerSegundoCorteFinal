@@ -19,7 +19,8 @@
         <activity android:name=".Cuadrado" />
         <activity android:name=".Resultado1" />
         <activity android:name=".Listado" />
-        <activity android:name=".Circulo"></activity>
+        <activity android:name=".Circulo" />
+        <activity android:name=".Resultado2"></activity>
     </application>
 
 </manifest>
